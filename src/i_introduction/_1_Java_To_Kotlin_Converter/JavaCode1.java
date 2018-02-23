@@ -8,7 +8,7 @@ import java.util.Iterator;
 public class JavaCode1 extends JavaCode {
     public String task1(Collection<Integer> collection) {
         StringBuilder sb = new StringBuilder();
-        sb.append("{");
+        sb.append("[");
         Iterator<Integer> iterator = collection.iterator();
         while (iterator.hasNext()) {
             Integer element = iterator.next();
@@ -17,7 +17,7 @@ public class JavaCode1 extends JavaCode {
                 sb.append(", ");
             }
         }
-        sb.append("}");
+        sb.append("]");
         return sb.toString();
     }
 }
